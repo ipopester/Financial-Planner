@@ -1,6 +1,6 @@
 # Financial-Planner
 
-This is a quantitative analysis of four investment options run by legendary fund and hedge-fund managers for inclusion in a client's portfolio. These investment options were evaluated based on an several metrics derived from daily returns, including standard deviations, Sharpe Ratios, and betas. The results were visualized using a variety of plots. A recommendation for a one optimal investment option was made.
+This is a tool designed to determine whether the customer's current portfolio of cryptocurrency, stock, and bond holdings meet the minimum required amount to create an 'emergency' retirement fund, and if elligible, create projections of the potential returns of that portfolio. Monte Carlo simulations using a variety of stock/bond ratios were run in order to determine returns based on 10 and 30 year investment periods. 
 
 ## Technologies
 
@@ -29,7 +29,7 @@ ___
 
 ## Usage
 
-To view the report, clone this repo on GitHub using hte link provided. Open the `risk_return_analysis.ipynb` file in the Report directory using Jupyter Lab to view the results. A csv file containing the data for the values of the portfolios over time can be viewed in the Resources folder.
+To view the report, clone this repo on GitHub using the link provided. Open the `financial_planning_tools.ipynb` file in the Report directory using Jupyter Lab to view the results. Image files containing the line plots and histograms for the values of the portfolios over time can be viewed in the Images folder.
 
 
 ## Contributors
@@ -38,7 +38,7 @@ Ian Pope: iancpope@uw.edu
 
 ## License
 
-Copyright (c) (2021) (Ian Pope)
+Copyright (c) (2022) (Ian Pope)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
